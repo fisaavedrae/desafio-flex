@@ -1,52 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
 body {
   top: 0px;
   left: 0px;
   width: 1280px;
-    /* UI Properties */
+  margin: 0%;
   background: #000000;
-  opacity: 1;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .header {
-  top: 7px;
-  
+  padding: 0px;
+
   width: 1280px;
-  
-  /* UI Properties */
-  text-align: center;
-  font-size: 2vw;
-  font-weight: 500;
-  
-  color: #ffffff;
-  opacity: 1;
+  height: 59px;
 }
-.central {
-  
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffffff;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.main {
   left: 0px;
   width: 100%;
   opacity: 1;
   text-align: center;
 }
-
 .contenedor {
   display: flex;
   gap: 20px;
   width: 100%;
   height: 348px;
   padding-top: 45px;
-  justify-content:space-evenly;
-  }
+  justify-content: space-evenly;
+}
 .card {
   width: 40%;
 }
-.card p{
+.card p {
+  padding-top: 30px;
+  font-size: 16px;
   font-weight: 300;
 }
 .img-iguana {
-  
   width: 399px;
 }
 
@@ -54,57 +58,56 @@ body {
 .caracteristicas {
   text-align: center;
   width: 100%;
-  height: 348px;
-  background: #1E1A13 0% 0% no-repeat padding-box;
-opacity: 0.98;
+  height: 250px;
+  background: #1e1a13;
+  padding-top: 1%;
 }
-.caracteristicas h2{
+.caracteristicas h2 {
+  font-size: 40px;
   font-weight: 500;
 }
-.box-caracteristicas
-{
+.box-caracteristicas {
   display: flex;
   gap: 20px;
-  width: 100%;
-  justify-content:space-evenly;
-
+  width: 80%;
+  justify-content: space-evenly;
+  position: relative;
+  padding-left: 6%;
 }
-.box-caracteristicas div{
+.box-caracteristicas div {
   width: 40%;
 }
-.box-caracteristicas p
-{
-  font-size: 1vw;
+.box-caracteristicas p {
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
 /*Bloque de Imagenes*/
-.box-imagenes{
+.box-imagenes {
   display: flex;
   gap: 20px;
-  width: 100%;
-  justify-content:space-around;
-  
-  
-}
-.box-imagenes div{
+  margin-top: 5%;
+  margin-left: 10%;
 
+  width: 1280px;
+  height: 250px;
 }
-.box-imagenes img{
-  width: 70%;
+.box-imagenes img {
+  width: 316px;
+  height: 202px;
 }
-.footer
- { 
+
+/*Bloque de Footer*/
+.footer {
   left: 0px;
   width: 100%;
-  height: 102px;  
-  background: #1E1A13 0% 0% no-repeat padding-box;
+  height: 102px;
+  background: #1e1a13 0% 0% no-repeat padding-box;
   opacity: 0.94;
 }
-.footer p{
-  padding-top:30px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2vw;
-  text-align:center;
+.footer p {
+  padding-top: 30px;
+  font-size: 20px;
+  text-align: center;
   font-weight: 300;
 }
